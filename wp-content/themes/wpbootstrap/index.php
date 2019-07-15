@@ -10,9 +10,9 @@
     <link rel="icon" href="../../favicon.ico">
     <title>Blog Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
+    <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
 </head>
 <body>
 <div class="blog-masthead">
