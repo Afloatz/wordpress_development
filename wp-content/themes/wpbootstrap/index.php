@@ -10,8 +10,8 @@
                 <h2 class="blog-post-title"><?php the_title(); ?></h2>
                 <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
-                <?php the_content(); ?>
-                
+                <?php the_excerpt(); ?>
+
             </div><!-- /.blog-post -->
                 <?php endwhile; ?>
             <?php else : ?>

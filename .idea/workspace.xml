@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06ff10e6-882b-45a8-b36b-4a01a258f801" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -31,11 +31,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="280">
+              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -71,11 +71,11 @@
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/css/bootstrap.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/js/bootstrap.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/wp_bootstrap_navwalker.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/style.css" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php" />
       </list>
     </option>
   </component>
@@ -151,12 +151,12 @@
       <workItem from="1563182070887" duration="2035000" />
       <workItem from="1563192693754" duration="6075000" />
       <workItem from="1563265692916" duration="3616000" />
-      <workItem from="1563277753647" duration="418000" />
+      <workItem from="1563277753647" duration="914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12144000" />
+    <option name="totallyTimeSpent" value="12640000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="840" extended-state="6" />
@@ -228,7 +228,7 @@
     <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -236,13 +236,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="38" column="6" selection-start-line="38" selection-start-column="6" selection-end-line="38" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
@@ -257,6 +250,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/wpbootstrap/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
         </state>
       </provider>
     </entry>
