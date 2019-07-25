@@ -5,7 +5,7 @@
             <?php if(have_posts()) : ?>
                 <?php while (have_posts()) : the_post(); ?>
                     <!-- copy the content of the file content.php here -->
-                    <?php get_template_part('content'); ?>
+                    <?php get_template_part('content', get_post_format()); ?>
                 <?php endwhile; ?>
             <?php else : ?>
                 <p><?php __('No Posts found'); ?></p>
