@@ -14,6 +14,8 @@
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
     <link href="<?php bloginfo('stylesheet_url'); ?>" rel="stylesheet">
+    <!-- Link to Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <?php wp_head(); ?>
 </head>
 
