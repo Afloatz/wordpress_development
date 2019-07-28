@@ -17,6 +17,12 @@
     <!-- Link to Font Awesome -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
     <?php wp_head(); ?>
+    <style>
+        .showcase{
+            background: url(<?php echo get_theme_mod('showcase_image', get_bloginfo('template_url').'/img/showcase.jpg'); ?>) no-repeat center center;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -42,9 +48,10 @@
 
     <section class="showcase">
         <div class="container">
-            <h1>Custom Bootstrap Wordpress Theme</h1>
-            <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam</p>
-            <a class="btn btn-primary btn-lg">Read More</a>
+            <!-- To display the text that we enter in the Customize menu -->
+            <h1><?php echo get_theme_mod('showcase_heading', 'Custom Bootstrap Wordpress Theme'); ?></h1>
+            <p><?php echo get_theme_mod('showcase_text', 'Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam'); ?></p>
+            <a href="<?php echo get_theme_mod('btn_url', 'http://test.com'); ?>" class="btn btn-primary btn-lg"><?php echo get_theme_mod('btn_text', 'Read More'); ?></a>
         </div>
     </section>
 
